@@ -11,6 +11,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.shapeshifter.turretdefense.block.ModBlocks;
+import net.shapeshifter.turretdefense.item.ModItems;
+import net.shapeshifter.turretdefense.registry.ModBlockEntities;
+import net.shapeshifter.turretdefense.world.feature.ModConfiguredFeatures;
+import net.shapeshifter.turretdefense.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -23,6 +28,17 @@ public class TurretDefense
     public TurretDefense()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //Blocks and Items Registration
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        //Ore Generation
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
+
+        //MobBlockEntities
+        ModBlockEntities.register();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

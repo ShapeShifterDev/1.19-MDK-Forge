@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " L ",
+    " L "
+  ],
+  "key": {
+    "X": {
+      "item": "turretdefense:steel_ingot"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "turretdefense:ballista_bolt",
+    "count": 4
+  }
+}

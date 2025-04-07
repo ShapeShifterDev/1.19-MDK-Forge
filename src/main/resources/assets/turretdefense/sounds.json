@@ -1,0 +1,12 @@
+{
+  "disruptor_laser_shoot": {
+    "sounds": [
+      {
+        "name": "turretdefense:disruptor_laser_shoot",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  }
+}
+

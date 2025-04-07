@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "turretdefense:block/basic_turret_base_top",
+    "down": "turretdefense:block/basic_turret_base_bottom",
+    "north": "turretdefense:block/basic_turret_base_side",
+    "south": "turretdefense:block/basic_turret_base_side",
+    "east": "turretdefense:block/basic_turret_base_side",
+    "west": "turretdefense:block/basic_turret_base_side",
+    "particle": "turretdefense:block/basic_turret_base_side"
+  }
+}

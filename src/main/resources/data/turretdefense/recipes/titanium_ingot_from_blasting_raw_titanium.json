@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "titanium_ingot",
+  "ingredient": {
+    "item": "turretdefense:raw_titanium"
+  },
+  "result": "turretdefense:titanium_ingot"
+}
+

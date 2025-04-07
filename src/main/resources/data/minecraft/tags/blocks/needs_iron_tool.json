@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "turretdefense:titanium_ore",
+    "turretdefense:titanium_block",
+    "turretdefense:deepslate_titanium_ore",
+    "turretdefense:steel_block"
+  ]
+}

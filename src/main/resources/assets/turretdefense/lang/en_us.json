@@ -1,0 +1,23 @@
+{
+  "itemGroup.turretdefense": "Turret Defense",
+
+  "item.turretdefense.titanium_ingot": "Titanium Ingot",
+  "item.turretdefense.raw_titanium": "Raw Titanium",
+  "item.turretdefense.steel_ingot": "Steel Ingot",
+  "item.turretdefense.ballista_bolt": "Ballista Bolt",
+  "item.turretdefense.disruptor_laser": "Disruptor Laser",
+
+  "block.turretdefense.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.turretdefense.titanium_ore": "Titanium Ore",
+  "block.turretdefense.titanium_block": "Block of Titanium",
+  "block.turretdefense.steel_block": "Block of Steel",
+  "block.turretdefense.basic_turret_base": "Basic Turret Base",
+  "block.turretdefense.disruptor_laser": "Disruptor Laser",
+
+  "tooltip.turretdefense.basic_turret_base.hold_shift": "Hold \u00A7eShift\u00A7r for more info",
+  "tooltip.turretdefense.basic_turret_base.description": "A sturdy base for mounting basic turrets Compatible Turrets:\nBallista\nPlaceholder\nPlaceholder"
+
+
+
+}
+
